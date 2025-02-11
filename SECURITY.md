@@ -13,4 +13,8 @@ Please report security issues by emailing [alex@dernild.dk](mailto:alex@dernild.
 If you believe you’ve found something that has security implications, please send a description of the issue via email to [alex@dernild.dk](mailto:alex@dernild.dk) 📧.
 
 ### Encryption
-Mail sent to [alex@dernild.dk](mailto:alex@dernild.dk) is encan be encrypted 🔏 with [this](publickey.alex@dernild.dk-937cea64c8a726604a1c4740783a8e027b12e587.asc) PGP public key 🔑.
+Mail sent to [alex@dernild.dk](mailto:alex@dernild.dk) can be encrypted 🔏 with [this](publickey.alex@dernild.dk-937cea64c8a726604a1c4740783a8e027b12e587.asc) PGP public key 🔑.
+
+## Disclaimer
+
+This policy is inspired by and freely adapted from Django’s security policies.
