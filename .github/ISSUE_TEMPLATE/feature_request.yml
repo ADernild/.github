@@ -1,0 +1,58 @@
+name: "✨ Feature Request"
+description: "Propose a new feature or enhancement."
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a feature! Please provide as much detail as possible.
+
+  - type: input
+    id: feature_summary
+    attributes:
+      label: "Feature Summary"
+      description: "Briefly describe the feature or enhancement."
+      placeholder: "e.g., Add support for multiple API keys"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_statement
+    attributes:
+      label: "What problem does this solve?"
+      description: "Explain the use case or issue this feature would address."
+      placeholder: "e.g., Currently, users can only authenticate with a single API key..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: "Proposed Solution"
+      description: "Describe how this feature could be implemented."
+      placeholder: "e.g., Add an option to store multiple API keys and switch between them."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives_considered
+    attributes:
+      label: "Alternatives Considered"
+      description: "Have you considered any other solutions or workarounds?"
+      placeholder: "e.g., Manually switching API keys by editing a config file."
+  
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "Priority"
+      description: "How important is this feature?"
+      options:
+        - "🚀 High (Urgent improvement)"
+        - "🔧 Medium (Useful but not urgent)"
+        - "📌 Low (Nice-to-have)"
+  
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Additional Context"
+      description: "Anything else we should know?"
