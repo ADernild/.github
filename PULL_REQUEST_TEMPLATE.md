@@ -1,6 +1,6 @@
 # Pull Request Template
 
-Thank you for contributing to {{ github.repository }}! Please fill out the following template to help us understand your changes.
+Thank you for contributing to [REPO_NAME]! Please fill out the following template to help us understand your changes.
 
 ## Description
 
